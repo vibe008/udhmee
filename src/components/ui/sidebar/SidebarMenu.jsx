@@ -43,7 +43,7 @@ export default function SidebarMenu() {
             },
           }}
         >
-          <MenuItem icon={<HomeIcon />}>Home</MenuItem>
+          <MenuItem href='/' icon={<HomeIcon />}>Home</MenuItem>
           {/* <MenuItem icon={<InfoIcon />}>About</MenuItem> */}
           <MenuItem href='/category' icon={<CategoryIcon />}>Category</MenuItem>
           <MenuItem href='/tag' icon={<SellIcon />}>Tags</MenuItem>
