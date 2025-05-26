@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image";
 import React, { useState } from "react";
-import { app, auth, signInWithGoogle } from "../../../../firebase/firebase"
+import { auth, signInWithGoogle } from "../../../../firebase/firebase"
 import { useDispatch, useSelector } from 'react-redux';
 import { setUser } from '../../../../Redux/store/authSlice';
 import loginImage from '../../../public/login.png';

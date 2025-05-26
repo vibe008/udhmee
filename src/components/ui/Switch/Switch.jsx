@@ -5,7 +5,7 @@ import DarkModeIcon from "@mui/icons-material/DarkMode";
 import { toggleTheme } from '@/Redux/store/uiSlice';
 import { useSelector, useDispatch } from 'react-redux';
 import { useEffect, useState } from "react";
-export default function toggleswitch() {
+export default function Toggleswitch() {
     const [thememode, setThemeMode] = useState(true);
     const dispatch = useDispatch();
     const { theme } = useSelector((state) => state.ui);
